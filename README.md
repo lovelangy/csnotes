@@ -4,7 +4,8 @@
 2. [682. Baseball Game](https://leetcode.com/problems/baseball-game/)
 
 ### 数组
-1. [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
+1.[78. Subsets](https://leetcode.com/problems/subsets/)
+2. [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
 
 ### 图
 1. [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
