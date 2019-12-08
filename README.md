@@ -5,6 +5,7 @@
 
 ### 字符串
 1. [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+2. [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)
 
 ### 数组
 1. [78. Subsets](https://leetcode.com/problems/subsets/)
