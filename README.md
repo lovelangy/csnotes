@@ -3,6 +3,9 @@
 1. [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)
 2. [682. Baseball Game](https://leetcode.com/problems/baseball-game/)
 
+### 字符串
+1. [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+
 ### 数组
 1. [78. Subsets](https://leetcode.com/problems/subsets/)
 2. [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
