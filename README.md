@@ -16,7 +16,7 @@
 ### 树
 1. [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
 2. [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
-3. [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/）
+3. [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
 
 ### 图
 1. [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
