@@ -1,4 +1,4 @@
-## 亚马逊面试精选15道题
+## 亚马逊面试精选16道题
 
 ### 字符串
 1. [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
@@ -25,4 +25,4 @@
 1. [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
 
 ### 动态规划
-1.[139. Word Break](https://leetcode.com/problems/word-break/)
+1. [139. Word Break](https://leetcode.com/problems/word-break/)
