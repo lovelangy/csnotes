@@ -23,3 +23,6 @@
 
 ### 链表
 1. [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
+
+### 动态规划
+1.[139. Word Break](https://leetcode.com/problems/word-break/)
