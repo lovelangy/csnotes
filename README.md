@@ -1,4 +1,4 @@
-## 亚马逊面试精选16道题
+## 亚马逊面试精选18道题
 
 ### 字符串
 1. [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
@@ -23,6 +23,10 @@
 
 ### 链表
 1. [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
+2. [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+
+### 哈希表
+1.[146. LRU Cache](https://leetcode.com/problems/lru-cache/)
 
 ### 动态规划
 1. [139. Word Break](https://leetcode.com/problems/word-break/)
