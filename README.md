@@ -24,6 +24,7 @@
 ### 链表
 1. [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
 2. [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+3. [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 
 ### 哈希表
 1.[146. LRU Cache](https://leetcode.com/problems/lru-cache/)
