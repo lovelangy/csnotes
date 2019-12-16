@@ -1,4 +1,7 @@
-## 亚马逊面试精选20道题
+## 亚马逊面试精选21道题
+
+### 数学题
+1. [204. Count Primes](https://leetcode.com/problems/count-primes/)
 
 ### 字符串
 1. [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
@@ -28,7 +31,7 @@
 3. [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 
 ### 哈希表
-1.[146. LRU Cache](https://leetcode.com/problems/lru-cache/)
+1. [146. LRU Cache](https://leetcode.com/problems/lru-cache/)
 
 ### 动态规划
 1. [139. Word Break](https://leetcode.com/problems/word-break/)
