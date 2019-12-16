@@ -1,4 +1,4 @@
-## 亚马逊面试精选19道题
+## 亚马逊面试精选20道题
 
 ### 字符串
 1. [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
@@ -12,6 +12,7 @@
 4. [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
 5. [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 6. [119.Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)
+7. [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
 
 ### 树
 1. [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
