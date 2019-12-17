@@ -1,7 +1,8 @@
-## 亚马逊面试精选21道题
+## 亚马逊面试精选22道题
 
 ### 数学题
 1. [204. Count Primes](https://leetcode.com/problems/count-primes/)
+2. [396. Rotate Function] (https://leetcode.com/problems/rotate-function/)
 
 ### 字符串
 1. [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
