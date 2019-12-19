@@ -1,4 +1,4 @@
-## 亚马逊面试精选23道题
+## 亚马逊面试精选24道题
 
 ### 数学题
 1. [204. Count Primes](https://leetcode.com/problems/count-primes/)
@@ -37,3 +37,4 @@
 
 ### 动态规划
 1. [139. Word Break](https://leetcode.com/problems/word-break/)
+2. [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)
