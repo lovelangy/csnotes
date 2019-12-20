@@ -1,4 +1,4 @@
-## 亚马逊面试精选25道题
+## 亚马逊面试精选26道题
 
 ### 数学题
 1. [204. Count Primes](https://leetcode.com/problems/count-primes/)
@@ -17,6 +17,7 @@
 5. [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 6. [119.Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)
 7. [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+8. [414. Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)
 
 ### 树
 1. [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
