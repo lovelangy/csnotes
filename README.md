@@ -43,10 +43,11 @@
 ### DFS
 1. [529. Minesweeper](https://leetcode.com/problems/minesweeper/)
 
-## 微软面试精选3道题
+## 微软面试精选4道题
 
 ### 数组
 1. [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+2. [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 ### 字符串
 1. [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 2. [15. 3Sum](https://leetcode.com/problems/3sum)
