@@ -43,7 +43,7 @@
 ### DFS
 1. [529. Minesweeper](https://leetcode.com/problems/minesweeper/)
 
-## 微软面试精选9道题
+## 微软面试精选10道题
 
 ### 数组
 1. [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
@@ -52,6 +52,7 @@
 ### 字符串
 1. [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 2. [15. 3Sum](https://leetcode.com/problems/3sum)
+3. [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)
 ### 树
 1. [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 2. [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
