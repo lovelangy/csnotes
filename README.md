@@ -43,7 +43,7 @@
 ### DFS
 1. [529. Minesweeper](https://leetcode.com/problems/minesweeper/)
 
-## 微软面试精选11道题
+## 微软面试精选12道题
 
 ### 数组
 1. [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
@@ -58,6 +58,7 @@
 2. [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
 3. [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 4. [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+5.  [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
 
 ### 滑动窗口
-1.[567. Permutation in String](https://leetcode.com/problems/permutation-in-string/)
+1. [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/)
