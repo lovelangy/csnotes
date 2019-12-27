@@ -65,3 +65,8 @@
 
 ### 快慢指针
 1. [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+
+## Facebook面试精选1题
+
+### 滑动窗口
+1. [209. Minimum Size Subarray Sum] https://leetcode.com/problems/minimum-size-subarray-sum/ 
