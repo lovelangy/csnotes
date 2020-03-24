@@ -94,3 +94,56 @@ void Main()
 	res.Dump();
 }
 ```
+3. (Max Network Rank)https://leetcode.com/discuss/interview-question/364760/ 
+```csharp
+
+void Main()
+{
+	int[] A = new int[]{1,2,3,3};
+	int[] B = new int[]{2,3,1,4};
+	int N = 4;
+	this.maxNetworkRank(A,B,N).Dump();
+}
+
+int maxNetworkRank(int[] A, int[] B, int N)
+{
+	Dictionary<string,int> dic = new Dictionary<string,int>();
+	Dictionary<string,int> dic2 = new Dictionary<string,int>();
+	Dictionary<int,int> degree_dic = new Dictionary<int,int>();
+	
+	for (int i = 0; i < A.Length; i++)
+	{
+		string key = A[i] + ":" + B[i];
+		dic[key] = 0;
+
+		if (!degree_dic.ContainsKey(A[i])){
+			degree_dic[A[i]] =1;
+		}
+		else
+		{
+			degree_dic[A[i]] +=1;
+		}
+
+		if (!degree_dic.ContainsKey(B[i]))
+		{
+			degree_dic[B[i]] = 1;
+		}
+		else
+		{
+			degree_dic[B[i]] += 1;
+		}
+	}
+
+	foreach(var key in dic.Keys)
+	{
+		var index1 = Int32.Parse(key.Split(':')[0]);
+		var index2 = Int32.Parse(key.Split(':')[1]);
+		
+		dic2[key] = degree_dic[index1] + degree_dic[index2];
+	
+		
+	}
+	
+	return dic2.Values.Max()-1;
+	}
+```
