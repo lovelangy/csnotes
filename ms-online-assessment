@@ -74,3 +74,23 @@ int digit_sum(int n)
 }
 
 ```
+
+2. https://leetcode.com/discuss/interview-question/398026/
+```csharp
+void Main()
+{
+	var s = "aab";
+	int res = 0;
+	int i = 0;
+	while(i < s.Length)
+	{
+		int next = i + 1;
+		while (next < s.Length && s[i] == s[next])
+			next++;
+		res += (next - i) / 3;
+		
+		i = next;
+	}
+	res.Dump();
+}
+```
