@@ -148,6 +148,8 @@ int maxNetworkRank(int[] A, int[] B, int N)
 	}
 ```
 3. Given a string S, find the largest alphabetic character, whose both uppercase and lowercase appear in S. The uppercase character should be returned. For example, for S = "admeDCAB", return "D". If there is no such character, return "NO".
+* https://leetcode.com/discuss/interview-question/548119/
+* 相似题: https://leetcode.com/discuss/interview-question/406031/
 
 ```csharp
 string test = "abcFdCfABC";
