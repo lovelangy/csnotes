@@ -181,3 +181,25 @@ string test = "abcFdCfABC";
 	var ret = result == -1? "NO": ((char)result).ToString();
 	ret.Dump();
 ```
+  [Count Visible Nodes in Binary Tree](https://leetcode.com/discuss/interview-question/546703/)
+  ```csharp
+  public int countVisibleNodes(TreeNode root)
+{
+	return countVisibleNodes(root, Int32.MinValue);
+}
+
+private int countVisibleNodes(TreeNode node, int maxSoFar)
+{
+	if (node == null) return 0;
+
+	int count = 0;
+
+	if (node.val >= maxSoFar)
+	{
+		count = 1;
+		maxSoFar = node.val;
+	}
+
+	return count + countVisibleNodes(node.left, maxSoFar) + countVisibleNodes(node.right, maxSoFar);
+}
+  ```
