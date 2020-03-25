@@ -94,7 +94,7 @@ void Main()
 	res.Dump();
 }
 ```
-3. (Max Network Rank)https://leetcode.com/discuss/interview-question/364760/ 
+3. [Max Network Rank](https://leetcode.com/discuss/interview-question/364760/) 
 ```csharp
 
 void Main()
@@ -146,4 +146,36 @@ int maxNetworkRank(int[] A, int[] B, int N)
 	
 	return dic2.Values.Max()-1;
 	}
+```
+3. Given a string S, find the largest alphabetic character, whose both uppercase and lowercase appear in S. The uppercase character should be returned. For example, for S = "admeDCAB", return "D". If there is no such character, return "NO".
+
+```csharp
+string test = "abcFdCfABC";
+ 	 //两次循环,能不能改一次循环呢? 
+	Dictionary<int,bool> map = new Dictionary<int,bool>();
+	int result = -1;  
+	foreach (var c in test)
+	{
+		int key = c - 0; 
+
+		if (!map.ContainsKey(key))
+			map[key] = true;
+	}
+	
+	foreach (var c in test)
+	{
+		int key = c - 0;
+
+		if (Char.IsLower(c) && map.ContainsKey(key - 32))
+		{
+			result = Math.Max(result, key - 32);
+		}
+		else if (!Char.IsLower(c) && map.ContainsKey(key + 32))
+		{
+			result = Math.Max(result, key);
+		}
+	}
+	
+	var ret = result == -1? "NO": ((char)result).ToString();
+	ret.Dump();
 ```
