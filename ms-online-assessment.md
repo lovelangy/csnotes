@@ -203,3 +203,50 @@ private int countVisibleNodes(TreeNode node, int maxSoFar)
 	return count + countVisibleNodes(node.left, maxSoFar) + countVisibleNodes(node.right, maxSoFar);
 }
   ```
+[Largest M-aligned Subset](https://leetcode.com/discuss/interview-question/525894/)
+```csharp
+void Main()
+{
+	int[] arr = new int[]{5, 8, 9, 12,13, 7, 11, 15};
+	int k = 4;
+	findSet(arr, k).Dump();
+}
+// remainder set 
+static int findSet(int[] arr, int k)
+{
+	int result = -1;
+	List<int>[] remainder_set =  new List<int>[k];
+	for (int i = 0; i < k; i++)
+		remainder_set[i] = new List<int>();
+
+	// calculate remainder set  
+	// array and push element 
+	// as per their remainder 
+	for (int i = 0; i < arr.Length; i++)
+	{
+		int rem = arr[i] % k;
+		remainder_set[rem].Add(arr[i]);
+	}
+
+	// check whether sizeof  
+	// any remainder set is 
+	// equal or greater than m 
+	for (int i = 0; i < k; i++)
+	{
+		remainder_set[i].Dump();
+		result = Math.Max(result,remainder_set[i].Count);
+//		if (remainder_set[i].Count >= m)
+//		{
+//			Console.WriteLine("Yes");
+//			for (int j = 0; j <remainder_set[i].Count; j++)
+//				Console.Write(remainder_set[i][j] +" ");
+//			return;
+//		}
+	}
+	return result;
+	//Console.Write("No");
+}
+
+// Define other methods and classes here
+
+```
