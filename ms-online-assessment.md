@@ -250,3 +250,42 @@ static int findSet(int[] arr, int k)
 // Define other methods and classes here
 
 ```
+[Largest number X which occurs X times](https://leetcode.com/discuss/interview-question/525977/)
+```csharp
+void Main()
+{
+//	int[] array = new int[]{3,8,2,3,3,2};
+	int[] array = new int[]{5,5,5,5,5};
+	this.getMaxOucrrence(array).Dump();
+	
+}
+
+int getMaxOucrrence(int[] array)
+{
+	int result = 0;
+	
+	Dictionary<int,int> map = new Dictionary<int,int>();
+	
+	foreach(int number in array)
+	{
+		if(map.ContainsKey(number))
+		{
+			map[number] +=1;
+		}
+		else
+		{
+			map[number] = 1;
+		}
+	}
+	
+	foreach(KeyValuePair<int,int> kv in map){
+		if(kv.Key == kv.Value)
+			result = Math.Max(result,kv.Value);
+	}
+	
+	return result;
+}
+
+// Define other methods and classes here
+
+```
