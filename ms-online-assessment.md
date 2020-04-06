@@ -289,3 +289,34 @@ int getMaxOucrrence(int[] array)
 // Define other methods and classes here
 
 ```
+[Microsoft | OA 2019 | Day of Week](https://leetcode.com/discuss/interview-question/398047/)
+```csharp
+void Main()
+{
+	solution("Wed",2).Dump();
+	solution("Sat",23).Dump();
+}
+
+public string solution(string s,int k){
+   Dictionary<string,int> days = new Dictionary<string, int>();
+    	days.Add("Sun",0);
+	days.Add("Mon",1);
+	days.Add("Tue",2);
+	days.Add("Wed",3);
+	days.Add("Thu",4);
+	days.Add("Fri",5);
+	days.Add("Sat",6);
+
+	int j = k%7 + days[s];
+	j = j%7;
+	
+	foreach(var kv in days)
+	{
+		if(kv.Value == j)
+			return kv.Key;
+	}
+	
+	return string.Empty;
+	
+}
+```
