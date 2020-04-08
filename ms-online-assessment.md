@@ -320,3 +320,29 @@ public string solution(string s,int k){
 	
 }
 ```
+
+[Microsoft | OA 2020 | Crop Words](https://leetcode.com/discuss/interview-question/507367/)
+```
+void Main()
+{
+	this.solution("Codility Me test coders",19).Dump();
+}
+
+public string solution(string message,int k){
+	if(string.IsNullOrEmpty(message) || message.Length <=k)
+		return message;
+	
+	string cropped_message = message.Substring(0,k);
+	cropped_message.Dump();
+	message[k].Dump();
+	if(message[k] !=' ')
+	{
+		if(cropped_message.LastIndexOf(' ') > 0)
+			cropped_message =  cropped_message.Substring(0,cropped_message.LastIndexOf(' '));
+		else
+			cropped_message = string.Empty;
+	}
+	
+	return cropped_message.TrimEnd(' ');
+}
+```
